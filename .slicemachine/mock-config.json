@@ -1,0 +1,27 @@
+{
+  "_cts": {
+    "layout": {},
+    "page": {},
+    "homepage": {}
+  },
+  "slices": {
+    "RichText": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

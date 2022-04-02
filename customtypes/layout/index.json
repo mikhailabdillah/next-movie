@@ -1,0 +1,49 @@
+{
+  "id": "layout",
+  "label": "Layout",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "brandName": {
+        "config": {
+          "label": "Brand Name",
+          "placeholder": "Brand Name"
+        },
+        "type": "Text"
+      },
+      "logo": {
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    },
+    "Seo": {
+      "metaTitle": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "Meta Title"
+        },
+        "type": "Text"
+      },
+      "metaDescription": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "Meta Description"
+        },
+        "type": "Text"
+      },
+      "metaImage": {
+        "config": {
+          "label": "Meta Image",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    }
+  }
+}

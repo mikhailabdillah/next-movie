@@ -1,0 +1,10 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-unused-vars": "error",
+    "no-use-before-define": "error",
+    "default-case": "warn",
+    "no-console": "error",
+    "no-empty": "warn"
+  }
+}

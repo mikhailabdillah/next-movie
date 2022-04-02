@@ -1,7 +1,7 @@
 /** Prismic Configuration */
 import * as prismic from '@prismicio/client'
 
-export const repositoryName = 'next-movie'
+export const repositoryName = process.env.PRISMIC_REPOSITORY_NAME
 
 // -- Route Resolver rules
 // Manages the url links to internal Prismic documents two levels deep (optionals)
@@ -14,7 +14,7 @@ export const routeResolver = {
   ],
 }
 
-export const accessToken = ''
+export const accessToken = process.env.PRISMIC_ACCESS_TOKEN || ''
 const endpoint = prismic.getRepositoryEndpoint(repositoryName)
 
 export const Client = prismic.createClient(endpoint, {

@@ -1,6 +1,6 @@
 {
 	"_latest": "0.3.4",
-	"apiEndpoint": "https://next-movie.prismic.io/api/v2",
+	"apiEndpoint": "https://your-repository.prismic.io/api/v2",
 	"libraries": [
 		"@/slices"
 	]
